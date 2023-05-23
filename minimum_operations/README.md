@@ -1,0 +1,1 @@
+Use Minimum operations function to generate nH using the minimum number of Copy All and Paste operations.
