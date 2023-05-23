@@ -20,10 +20,10 @@ def minOperations(n):
 
     Returns:
         int: The minimum number of operations required.
-        If n is impossible to achieve, returns 0.
+        If n is impossible to achieve or invalid(negative), returns 0.
 
     """
-    if n == 0:
+    if n <= 0:
         return 0
     
     operations = 0
