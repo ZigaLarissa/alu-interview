@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import math
-
+"""Module documentation"""
 
 def minOperations(n):
     if n == 0:
