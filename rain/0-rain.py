@@ -10,10 +10,12 @@ of rainwater retained based on the heights of walls in a relief map.
 
 def rain(walls):
     """
-    Calculates the total amount of rainwater retained based on the heights of walls.
+    Calculates the total amount of rainwater retained based on the heights
+    of walls.
 
     Parameters:
-        walls (list): A list of non-negative integers representing the heights of walls.
+        walls (list): A list of non-negative integers representing the
+        heights of walls.
 
     Returns:
         int: The total amount of rainwater retained.
