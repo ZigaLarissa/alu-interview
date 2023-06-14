@@ -1,5 +1,25 @@
 #!/usr/bin/python3
+"""
+rainwater module
+
+This module provides a method to calculate the total amount
+of rainwater retained based on the heights of walls in a relief map.
+
+"""
+
+
 def rain(walls):
+    """
+    Calculates the total amount of rainwater retained based on the heights of walls.
+
+    Parameters:
+        walls (list): A list of non-negative integers representing the heights of walls.
+
+    Returns:
+        int: The total amount of rainwater retained.
+
+    """
+
     if not walls:
         return 0
 
